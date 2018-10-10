@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class PhotoDetailsViewController: UIViewController {
 
+    
     @IBOutlet weak var detailPhoto: UIImageView!
     var post: [String: Any]?
     
